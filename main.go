@@ -165,6 +165,8 @@ func main() {
 			os.Exit(0)
 		}
 
+		maxingFdsLimit()
+
 		ClearConsole = func() {
 			print("\033[H\033[2J")
 		}
